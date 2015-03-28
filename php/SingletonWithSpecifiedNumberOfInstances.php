@@ -57,9 +57,9 @@ class SingletonWithSpecifiedNumberOfInstances {
 
 }
 
-//let create objects and check whats going on
+//lets create objects and check whats going on
 
-//set the max instance count
+//set max instance count
 SingletonWithSpecifiedNumberOfInstances::setNumberOfInstances(3);
 
 //create instances
@@ -71,7 +71,7 @@ $instanceFive=SingletonWithSpecifiedNumberOfInstances::getInstance();
 
 
 //display object hash ids
-//same id will repeate for forth and fifth instance
+//same id will repeat for forth and fifth instance
 
 echo "firstObjectHashId: ".spl_object_hash($instanceOne)."\n";
 echo "SecondObjectHashId: ".spl_object_hash($instanceTwo)."\n";
