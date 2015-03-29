@@ -15,7 +15,7 @@ class myMemCache {
     private static $expireTime=43200;
     private static $port=11211;
 
-    private function myMemCache(){}
+    private function __construct(){}
 
     public static function getMyMemCacheInstance(){
 
