@@ -42,10 +42,10 @@ copyFromOneJsonToAnotherJson(jsonObj,jsonObj2);
 
 jsonObj.name="hello changed name";
 
-console.log(jsonObj2);
-
-//dude this is not assigned by reference  so jsonObj will be as it is
 console.log(jsonObj);
+
+//dude this is not assigned by reference  so jsonObj2 will be as it is
+console.log(jsonObj2);
 
 
 //function to copy one json object to anther
