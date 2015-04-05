@@ -28,7 +28,7 @@ class mySession implements SessionHandlerInterface {
     function open($savePath,$sessionName){
 
         //get the db connection
-        $this->dbConnection = new PDO('mysql:dbname=db_based_session;host:localhost','root','root123');
+        $this->dbConnection = new PDO('mysql:dbname=db_based_session;host:localhost','XXX','XXX');
 
         //set the default session expiration time
         $this->sessionLifeTime= get_cfg_var('session.gc_maxlifetime');
