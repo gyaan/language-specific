@@ -41,7 +41,7 @@ class OverLoadingInPhp {
         unset($this->data[$name]);
     }
 
-// override the methods using __call() magic methods
+// overloading the methods using __call() magic methods
 
     function  __call($methodName,$arguments){
 
