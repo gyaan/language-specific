@@ -5,7 +5,7 @@
  * Date: 6/4/15
  * Time: 10:11 PM
  * multiple Inheritance  is not possible in php but we can implement using interface but still interface is build only for
- * blue print we still can't create concrete methods in interface so in php we can't extend class horizontally.trait is concept in
+ * blue print we can't create concrete methods in interface so in php we can't extend class horizontally.trait is concept in
  * php using this we can support horizontally inheritance like multiple inheritance
  */
 
