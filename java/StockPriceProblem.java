@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by lenskart on 27/08/16.
+ * Created by gyaneshwar on 27/08/16.
  */
 public class StockPriceProblem {
 
