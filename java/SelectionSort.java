@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 /**
  * Created by gyaneshwar on 28/08/16.
  */
@@ -7,7 +9,7 @@ public class SelectionSort {
         int a[] = {2, 3, 5, 1, 56, 13, 23};
         SelectionSort selectionSort = new SelectionSort();
         int[] sortedArray = selectionSort.selectionSort(a);
-        selectionSort.printArray(sortedArray);
+        System.out.println(Arrays.toString(sortedArray));
     }
 
     public int[] selectionSort(int arr[]) {
@@ -29,12 +31,5 @@ public class SelectionSort {
 
         }
         return arr;
-    }
-
-    public void printArray(int[] arr) {
-
-        for (int i = 0; i < arr.length; i++) {
-            System.out.print(arr[i] + "->");
-        }
     }
 }

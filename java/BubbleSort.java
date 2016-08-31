@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 /**
  * Created by gyaneshwar on 28/08/16.
  */
@@ -7,7 +9,7 @@ public class BubbleSort {
         BubbleSort bubbleSort = new BubbleSort();
         int[] arr = {32, 4, 3, 12, 89, 14, 7};
         int[] a = bubbleSort.bubbleSort(arr);
-        bubbleSort.printArray(a);
+        System.out.println(Arrays.toString(a));
     }
 
     public int[] bubbleSort(int arr[]) {
@@ -22,11 +24,5 @@ public class BubbleSort {
             }
         }
         return arr;
-    }
-
-    public void printArray(int[] arr) {
-        for (int i = 0; i < arr.length; i++) {
-            System.out.print(arr[i] + "->");
-        }
     }
 }

@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 /**
  * Created by gyaneshwar on 28/08/16.
  */
@@ -6,7 +8,7 @@ public class InsertionSort {
         InsertionSort insertionSort = new InsertionSort();
         int[] targetArray = {230, 1, 4, 2, 5, 34, 23, 67};
         int[] sortedArray = insertionSort.insertionSort(targetArray);
-        insertionSort.printArray(sortedArray);
+        System.out.println(Arrays.toString(sortedArray));
     }
 
     /**
@@ -27,12 +29,4 @@ public class InsertionSort {
         return arr;
     }
 
-    /**
-     * @param arr
-     */
-    public void printArray(int[] arr) {
-        for (int i = 0; i < arr.length; i++) {
-            System.out.print(arr[i] + "->");
-        }
-    }
 }
