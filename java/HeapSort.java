@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 /**
- * Created by lenskart on 31/08/16.
+ * Created by gyaneshwar on 31/08/16.
  */
 public class HeapSort {
 
